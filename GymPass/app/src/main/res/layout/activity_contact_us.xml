@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_contact_us"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="100sp"
+android:paddingLeft="16sp"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@color/background"
+tools:context="com.example.jakubkurtiak.gympass.ReadNewsActivity">
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/badge_regular_member"/>
+    <TextView
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="44sp"
+    android:gravity="end"
+    android:layout_alignRight="@+id/upperButtons"
+    android:layout_alignEnd="@+id/upperButtons" />
+
+    <LinearLayout
+    android:id="@+id/upperButtons"
+    android:layout_width="match_parent"
+    android:layout_height="180sp"
+    android:gravity="start"
+    android:orientation="vertical"
+    android:layout_below="@+id/top"
+    android:layout_marginTop="50sp"
+    android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+        android:weightSum="1">
+
+        <TextView
+        android:id="@+id/contact_us_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+            android:textColor="@color/black"
+            />
+
+
+
+    <TextView
+        android:id="@+id/news_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1.60" />
+
+
+    </LinearLayout>
+
+
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@android:drawable/ic_dialog_map"
+    android:id="@+id/imageButtonMap"
+    android:onClick="onClickMap"
+        android:background="@drawable/black_round_button"
+        android:layout_below="@+id/upperButtons"
+        android:layout_alignLeft="@+id/upperButtons"
+        android:layout_alignStart="@+id/upperButtons"
+        android:layout_marginTop="20dp" />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/sym_action_email"
+        android:id="@+id/imageButtonEmail"
+        android:onClick="onClickEmail"
+        android:background="@drawable/black_round_button"
+        android:layout_alignTop="@+id/buttonCall"
+        android:layout_alignRight="@+id/upperButtons"
+        android:layout_alignEnd="@+id/upperButtons"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:srcCompat="@android:drawable/stat_sys_phone_call"
+    android:id="@+id/buttonCall"
+    android:onClick="onClickCall"
+        android:background="@drawable/black_round_button"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignTop="@+id/imageButtonMap"
+        android:layout_toLeftOf="@+id/imageButtonEmail"
+        android:layout_toStartOf="@+id/imageButtonEmail">
+        </ImageButton>
+
+
+</RelativeLayout>
+</ScrollView>
+

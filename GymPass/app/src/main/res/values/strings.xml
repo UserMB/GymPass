@@ -1,0 +1,95 @@
+<resources>
+    // General strings
+    <string name="app_name">GymPass</string>
+    <string name="gympass"><font fgcolor='white'>GymPass&#160;</font></string>
+    <string name="menu">Menu</string>
+    <string name="pass">Pass</string>
+    <string name="read_news">Latest News&#160;</string>
+    <string name="contact_us_header">Contact Us&#160;</string>
+    <string name="share_now">Share Now&#160;</string>
+    <string name="classes">Classes&#160;</string>
+    <string name="deregister">Deregister&#160;</string>
+
+    <string name="register">Register</string>
+    <string name="member_login">Member login</string>
+    <string name="member_password">Member password</string>
+    <string name="your_pass">Your Gym Pass&#160;</string>
+    <string name="and_more">And more&#160;</string>
+
+    <string name="your_pass_button">Click to open Gym Pass</string>
+    <string name="button_read_news">Read News</string>
+    <string name="button_contact_us">Contact Us</string>
+    <string name="button_share">Share</string>
+    <string name="button_classes">Classes</string>
+    <string name="button_videos">Videos</string>
+    <string name="button_deregister">Deregister</string>
+    <string name="scan_code">Scan Code Now&#160;</string>
+    <string name="qrcode_desc">Qr Code</string>
+    <string name="button_workout">Workout</string>
+    <string name="class_bookings">Class Bookings</string>
+    <string name="share_to_app">Choose an app or conversation from the list to share to:</string>
+
+    // VideosActivity
+    <string name="classes_header">Classes</string>
+    <string name="classes_text">
+        Classes are taught by fully qualified personal trainers making them safe, fun and suitable for all levels of fitness.
+        \n\n
+        See for yourself:
+    </string>
+    <string name="classes_bottom">Enroll now!</string>
+    <string name="video_text_ucd_induction_video">UCD Induction Video</string>
+    <string name="video_text_pre_workout">Pre-workout Stretching video</string>
+    <string name="video_text_bench_press">Bench Press Technique safety video</string>
+    <string name="video_text_ucd_marketing">UCD Marketing video for fitness classes overview</string>
+
+    // ContactUsActivity
+    <string name="GymPass2">Contact Us</string>
+    <string name="compose_email">Compose Email</string>
+    <string name="gym_address">
+        "\n  UCD Sport and Fitness \n  Belfied \n  Dublin 4 \n "
+        "Monday - Friday: 6am - 11pm \n"
+        "Weekends:	8am - 6.30pm \n"
+        "Bank Holidays:	8am - 6.30pm"
+    </string>
+
+
+    // ShareActivity
+    <string name="button">Share Status</string>
+    <string name="button2">Share Update</string>
+    <string name="button3">Share All</string>
+    <string name="button_share_checkin">Share Gym Check-in</string>
+    <string name="button_activate_voice_control">Activate Voice Control</string>
+    <string name="button_share_programme">Share Programme Progress</string>
+    <string name="share_top_textbox">Share your check-in status at the gym</string>
+    <string name="share_bottom_textbox">Share your progress so far: number of gym sessions you\'ve done since starting your programme</string>
+
+    <string name="deregister_message">
+        \n
+        \nWe are sad to see you go.
+        \n
+        \n
+        \nPlease click button below to confirm deregistration.
+    </string>
+
+    // PassActivity
+    <string name="in_the_gym">In the gym, your visit is stored.</string>
+
+
+    // WorkoutActivity
+    <string name="WO_initial">Fancy some workout?\n\nFollow motivation steps!\n\nClick!</string>
+    <string name="WO_welcome">Good choice!\n\nLet\'s go!</string>
+    <string name="WO_1">Think of this while you\'re sweating it out and you won\'t be able to fight the laughter!</string>
+    <string name="WO_2">The true sign of a killer workout.</string>
+    <string name="WO_3">Sweat is our best accessory...after our favorite running shoes of course!</string>
+    <string name="WO_4">Hey, a one hour workout is just 4 percent of your day!</string>
+    <string name="WO_5">Hey, no one ever said getting an awesome, healthy body was easy—that\'s why the word work is in working out.</string>
+    <string name="WO_6">Pretty much our life philosophy right here!</string>
+    <string name="WO_7">If you can make it that far, what\'s stopping you from one more mile or one more set of reps?</string>
+    <string name="WO_8">And that is why you keep pushing yourself every time you hit the gym.</string>
+    <string name="WO_9">You have done that!!!</string>
+    <string name="WO_end">Finally!, that was outstanding!!!\n\n\nGo home\n\n: - )</string>
+    <string name="title_activity_workout">WorkoutActivity</string>
+
+    // DeregisterActivity
+    <string name="deregister_are_you_sure">%1$s are you sure?</string>
+</resources>

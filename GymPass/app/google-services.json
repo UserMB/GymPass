@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "478002902918",
+    "firebase_url": "https://gympass-d36d4.firebaseio.com",
+    "project_id": "gympass-d36d4",
+    "storage_bucket": "gympass-d36d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478002902918:android:ba9c633a1c9df397",
+        "android_client_info": {
+          "package_name": "com.example.jakubkurtiak.gympass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478002902918-3m4ke00r3qg8v6oeksedi32b3puetago.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfnwm4bzW6mrV8qwYdLTfMmAI4Xcdc31M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

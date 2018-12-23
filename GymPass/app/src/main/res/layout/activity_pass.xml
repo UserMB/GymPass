@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.jakubkurtiak.gympass.PassActivity">
+
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/badge_regular_member"/>
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="44sp"
+        android:gravity="end"/>
+    <TextView
+        android:id="@+id/your_pass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="40sp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/top"/>
+    <ImageView
+        android:id="@+id/qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/qrcode_desc"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/your_pass"/>
+    <TextView
+        android:id="@+id/visits_so_far"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/qrcode"/>
+    <TextView
+        android:id="@+id/gymmember_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/visits_so_far"/>
+
+</RelativeLayout>
+</ScrollView>

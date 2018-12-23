@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="60dp"
+    android:paddingRight="16dp"
+    android:paddingTop="110dp"
+    android:background="@color/background"
+    tools:context="com.example.jakubkurtiak.gympass.HomePageActivity">
+
+
+    <ImageButton
+        android:layout_width="240sp"
+        android:layout_height="250sp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/gynpasstransparent"
+        android:id="@+id/imageButton"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:onClick="nextPageClick"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+    />
+</RelativeLayout>
