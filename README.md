@@ -13,12 +13,12 @@ After downloading all the files navigate to the android studio and place it on o
 
 ## Authors
 
-* **Michael Brennan** - [Michael](https://github.com/MichaelBrennan83)
-* **Shaney Moran** - [Shaney](https://github.com/MichaelBrennan83/AndroidTeamProject) 
-* **Aongus Bates** - [Aongus](https://github.com/MichaelBrennan83/AndroidTeamProject) 
-* **Jakub Kurtiak** - [Jakub](https://github.com/MichaelBrennan83/AndroidTeamProject)<br/> 
+* **Michael Brennan** - [UserMB](https://github.com/UserMB/GymPass)
+* **Shaney Moran** - [Shaney](https://github.com/UserMB/GymPass) 
+* **Aongus Bates** - [Aongus](https://github.com/UserMB/GymPass) 
+* **Jakub Kurtiak** - [Jakub](https://github.com/UserMB/GymPass)<br/> 
 
-Copyright: 2017 GymPass
+Copyright: 2018 GymPass
 
 ## License
 
